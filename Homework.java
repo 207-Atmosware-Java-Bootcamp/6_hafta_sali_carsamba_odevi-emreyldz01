@@ -117,15 +117,12 @@ public class Homework {
 		    for (Integer yourInt : arr) {
 		        if (!set1.add(yourInt)) {
 		          
-		        	
-		        }else {
 		        	setToReturn.add(yourInt);
-		        }
-		     
-		    }
-		   // set1.removeAll(setToReturn);
-		    System.out.println(setToReturn);
-		   // System.out.println(set1);
+		        
+		    }}
+		    set1.removeAll(setToReturn);
+		    //System.out.println(setToReturn);
+		   System.out.println(set1);
 		    
 		}
  	public static void main(String[] args) {
